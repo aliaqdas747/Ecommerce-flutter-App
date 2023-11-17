@@ -12,7 +12,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //By default the theme will be light theme its depends upon the sysytem them
+      //By default the theme will be light theme its depends upon the system them
       themeMode: ThemeMode.system,
 
       theme:TAppTheme.lightTheme,
